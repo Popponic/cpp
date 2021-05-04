@@ -1,0 +1,6 @@
+﻿  Array[2] Electric Boogaloo.cpp
+C:\Users\270030185\OneDrive - UP Education\Desktop\103 CPP\Test\Array[2] Electric Boogaloo\Array[2] Electric Boogaloo\Array[2] Electric Boogaloo.cpp(166,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\270030185\OneDrive - UP Education\Desktop\103 CPP\Test\Array[2] Electric Boogaloo\Array[2] Electric Boogaloo\Array[2] Electric Boogaloo.cpp(170,24): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\270030185\OneDrive - UP Education\Desktop\103 CPP\Test\Array[2] Electric Boogaloo\Array[2] Electric Boogaloo\Array[2] Electric Boogaloo.cpp(179,29): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+C:\Users\270030185\OneDrive - UP Education\Desktop\103 CPP\Test\Array[2] Electric Boogaloo\Array[2] Electric Boogaloo\Array[2] Electric Boogaloo.cpp(186,24): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Array[2] Electric Boogaloo.vcxproj -> C:\Users\270030185\OneDrive - UP Education\Desktop\103 CPP\Test\Array[2] Electric Boogaloo\Debug\Array[2] Electric Boogaloo.exe

@@ -5,6 +5,18 @@
 #include <cmath>
 using namespace std;
 
+void arrloop(int arr[2][2]) {
+    int i, j;
+
+    for (i = 0; i < 2; i++) {
+        for (j = 0; j < 2; j++) {
+            cout << "enter a number: ";
+            cin >> arr[i][j];
+        }
+        cout << endl;
+    }
+}
+
 int main()
 {
     /*string name[5];
@@ -75,27 +87,31 @@ int main()
 
     cout << " |_ vs _| / 1920 x 1080 vs 1080 x 1920 / 1080p vs 1920p / Columns & Rows vs Rows & Columns / Bros > Hoes vs Hoes > Bros / Everyone Else vs Jack";*/
 
-    /*int i, j, a[2][2], b[2][2], c[2][2], d[1][2], k = 0, l = 1, m, temp = 0;
+    int i, j, a[2][2], b[2][2], c[2][2], d[1][2], k = 0, l = 1, m, temp = 0;
 
-    cout << "\tA Input\n" << endl;
+    cout << "\ta input\n" << endl;
 
-    for (i = 0; i < 2; i++) {
+    /*for (i = 0; i < 2; i++) {
         for (j = 0; j < 2; j++) {
-            cout << "Enter a number: ";
+            cout << "enter a number: ";
             cin >> a[i][j];
         }
         cout << endl;
-    }
+    }*/
 
-    cout << "\n\tB Input\n" << endl;
+    arrloop(a);
 
-    for (i = 0; i < 2; i++) {
+    cout << "\n\tb input\n" << endl;
+
+    /*for (i = 0; i < 2; i++) {
         for (j = 0; j < 2; j++) {
-            cout << "Enter a number: ";
+            cout << "enter a number: ";
             cin >> b[i][j];
         }
         cout << endl;
-    }
+    }*/
+
+    arrloop(b);
 
     for (i = 0; i < 2; i++) {
         for (j = 0; j < 2; j++) {
@@ -104,7 +120,7 @@ int main()
         cout << endl;
     }
 
-    cout << "\n\tA Matrix\n" << endl;
+    cout << "\n\ta matrix\n" << endl;
 
     for (i = 0; i < 2; i++) {
         for (j = 0; j < 2; j++) {
@@ -113,7 +129,7 @@ int main()
         cout << endl;
     }
 
-    cout << "\n\tB Matrix\n" << endl;
+    cout << "\n\tb matrix\n" << endl;
 
     for (i = 0; i < 2; i++) {
         for (j = 0; j < 2; j++) {
@@ -161,9 +177,9 @@ int main()
 
         cout << "\nOkay." << endl;
 
-        return 0;*/
+        return 0;
 
-    srand(time(0));
+    /*srand(time(0));
     float arr[5][3];
     int i = 0, j, temp;
 
@@ -200,6 +216,6 @@ int main()
 
 
     cout << "|\t\t\t\t\t\t     |" << endl;
-    cout << " ---\t\t\t\t\t\t  ---" << endl;
+    cout << " ---\t\t\t\t\t\t  ---" << endl;*/
 
 }
